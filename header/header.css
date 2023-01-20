@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background: linear-gradient(to right,rgb(241, 59, 59), rgb(190, 11, 11));
+}
+
+h2{
+    color:#FFF;
+    position: relative;
+    top:42vh;
+    margin: 0 auto;
+    border-radius: 0.8vh;
+    border: 1px dashed #FFF;
+    padding: 4vh;
+}
+
+h2:hover{
+    border:1px solid #FFF;
+}
